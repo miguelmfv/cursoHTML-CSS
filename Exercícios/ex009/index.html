@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>
+        Usando imagens dinâmicas
+    </h1>
+    <p>
+        Diminua o site ou aumente ele.
+    </p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/imagem-g.png" type="image/png">    <!-- uso esses comandos <sourse media type> para colocar diferentes tamanhos de imagem-->
+        <source media="(min-width: 650px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-p.png" alt="imagem-pequena">
+    </picture>
+
+    <h2>
+        Usando áudios 
+    </h2>
+    <!--<audio src="audios/Believe (Instrumental) - NEFFEX.mp3" autoplay controls></audio>   esse código não tem suporte para muitos formatos e sites.-->
+    <audio preload="metadata" controls>
+        <source src="audios/Believe (Instrumental) - NEFFEX.mp3" type="">  <!--aqui pode colocar vários audios com diferentes formatos-->
+    </audio>
+
+    <h2>
+        Usando vídeos
+    </h2>
+    
+</body>
+</html>

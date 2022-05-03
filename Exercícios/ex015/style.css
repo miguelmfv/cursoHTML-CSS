@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(237, 224, 250);
+    font: normal 1em arial, verdana, sans-serif;
+}
+
+h1#ola {
+    background-color: rgb(128, 88, 165);
+    color: white;
+    font-size: 3em;
+}
+h1 {
+    color: rgb(182, 57, 207);
+}
+
+h2 {
+    color: darkslateblue;
+}
