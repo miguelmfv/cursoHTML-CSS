@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #conteiner {
+            background-color: violet;
+            background-image: url(imagens-cap19/target001.png);
+            height: 96vh;
+            background-size: 100% 100%;
+            padding: 10px;
+            position: relative;
+        }
+
+        #conteudo {
+            background-color: yellow;
+            background-image: url(imagens-cap19/target001.png);
+            width: 400px;
+            height: 400px;
+            background-size: 100% 100%;
+            position: absolute; /*Com o absolute consigo colocar top e left posições*/
+            top: 50%;
+            left: 50%; /*e com esses dois, a posição do quadrado fica embaixo na direita*/
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article id="conteudo">
+            
+        </article>
+    </section>
+</body>
+</html>
